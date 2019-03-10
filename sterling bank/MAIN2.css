@@ -1,0 +1,468 @@
+/* CSS FOR SIDE NAVIGATION PANEL */
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: darkgreen;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+/* CSS FOR SETTINGS OPTION IN SIDE NAVIGATION PANEL */
+.settings {
+  padding-left: 48px;
+  padding-top: 300px;
+  color: white;
+  font-weight: lighter;
+}
+/* CSS FOR IMPERIUM AND ITS LOGO IN A TABLE */
+.table6 {
+  text-align: left;
+  float: left;
+}
+/* CSS FOR IMPERIUMS LOGO AS A CIRCLE */
+.circle {
+  height: 5px;
+  background-color: yellow;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18px;
+  vertical-align: bottom;
+  padding-block-start: 10px; 
+}
+/* CSS FOR IMPERIUM */
+.imperium{
+  padding-left: 8px;
+  font-size: 20pt;
+  color: white;
+}
+/* CSS FOR DASHBOARD IN SIDE NAVIGATION PANEL */
+.dashboard {
+  padding-top: 45px;
+  padding-left: 48px;
+  color: white;
+}
+/* CSS FOR THE REFERENCE LINKS IN THE SIDE NAVIGATION PANEL */
+.sidenav a {
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 8pt;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* CSS FOR PAYMENT */
+.payment {
+  padding-top: 25px;
+  padding-left: 48px;
+  color: white;
+}
+/* CSS FOR ORDER IN SIDE NAVIGATION PANEL */
+.ordere {
+  padding-top: 25px;
+  padding-left: 48px;
+  color: yellow;
+}
+/* CSS FOR PRODUCTS IN SIDE NAVIGATION PANEL*/
+.products {
+  padding-left: 48px;
+  padding-top: 25px;
+  color: white;
+}
+/* CSS FOR SEARCH BAR AND JOHN DOE*/
+.main {
+  margin-left: 160px;
+  font-size: 14pt; 
+}
+/* CSS FOR SEARCH BAR AND JOHN DOE */
+.wrap{
+  width: 50%;
+  position: relative;
+  top: 70%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+/* CSS FOR SEARCH BAR */
+.search {
+  position: relative;
+  color: #aaa;
+  font-size: 16px;
+  width: 50%;
+  display: block;
+  margin-bottom: 10px;
+  float: left;
+  padding-top: 22px; 
+}
+/* CSS FOR SEARCH INPUT */
+.search input {
+  width: 200%;
+  height: 32px;
+  background: white;
+  border: 1px solid #aaa;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+  outline: none;
+}
+/* CSS FOR SEARCH INPUT */
+.search input { 
+  text-indent: 20px;
+}
+/* CSS FOR CSS SEARCH ICON */
+.search .fa-search { 
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: gray;
+  padding-top: 20px;
+}
+/* CSS FOR HEADER JOHN DOE */
+header {
+  display: block;
+  padding-top: 15px;
+  left: 100%;
+}
+/* CSS FOR JOHN DOE */
+.headerr {
+font-size: 12pt;
+font-weight: lighter;
+}
+/* CSS FOR HEADER */
+h1 {
+  font-size: 15pt;
+  text-align: center;
+}
+/* CSS FOR PARAGRAPH */
+p {
+    text-align: center;
+}
+/* CSS FOR HEADER INSIDE THE MAIN BOX AT THE TOP AS CURRENT PAGE*/
+.order {
+  float: left;
+  color: lightgray;
+} 
+/* CSS FOR CREATING THE MAIN BOX CONTAINING ORDER CONTENTS */
+.div2 {
+width: 750px;
+height: 600px;  
+padding-left: 50px;
+border: 15px solid lightgrey;
+margin-left: 150px;
+}
+/* CSS FOR ORDER NUMBER AND DATE */
+.hashtag {
+    font-size: 16pt;
+    color: black;
+  }
+  /* CSS FOR ORDER NUMBER AND DATE */
+.wrap3 {
+  left: 25%;
+  padding-block-start: 50px;
+}
+/* CSS FOR ORDER NUMBER AND DATE  */
+.under {
+  color: lightgray;
+}
+/* CSS FOR ORDER NUMBER AND DATE */
+.order2 {
+  float: left;
+}
+/* CSS FOR PAID AND SCHEDULED DISPLAY BUTTONS */
+.wrap4 {
+  padding-block-start: 18px;
+}
+
+/* CSS OFFR PAID DISPLAY BUTTON */
+.button1 {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 9px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+/* CSS FOR SCHEDULED DISPLAY BUTTON */
+.button2 {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 9px;
+  margin-left: 10px;
+}
+/* CSS FOR MORE OPTIONS TEXT */
+.option {
+  color: black;
+  border-color: white;
+}
+/* CSS FOFR DROPDOWN LIST */
+.dropdown {
+  float: left;
+  padding-block-start: 12px;
+  padding-left: 30px;
+}
+/* CSS FOR MORE ACTIONS USED TO SEPARATE IT FROM THE SELECT OPTIONS SO THAT THEY WILL HAVE DIFFERENT COLORS */
+.actions {
+  color: gray;
+  font-size: 10pt;
+}
+/* CSS FOR INSTALLATION DATE AND TIME */
+.wrap7 {
+  left: 100%;
+  padding-block-start: 60px;
+}
+/* CSS FOR INSTALLATION DATE AND TIME BOX */
+.box{
+  float: left;
+  /* color: black; */
+}
+/* CSS FOR INSTALLATION DATE AND TIME */
+.div1 {
+  width: 400px;
+  height: 100px;
+  border: 0.5px solid lightgrey;
+  display: inline-block;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px; 
+}
+/* CSS FOR DATE AND TIME IN TABLE */
+.tr1 {
+  color: lightgray;
+}
+/* CSS FOR DATE AND TIME IN TABLE */
+.tr2 {
+  color: green;
+  font-size: 18pt;
+  font-weight: bold;
+}
+/* CSS FOR CUSTOMER INFORMATION */
+.div3 {
+  width: 250px;
+  height: 110px;
+  border: 0.5px solid lightgrey;
+  display: inline-block;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+/* CSS FOR CUSTOMER INFORMATION DETAILS */
+.div14 {
+  padding-top: 10px;
+  font-size: 9pt;
+}
+/* CSS FOR CUSTOMER INFORMATION DETAILS */
+.div15 {
+  padding-top: 12px;
+  font-size: 9pt;
+  color: blue;
+}
+/* CSS FOR CUSTOMER INFORMATION DETAILS */
+.div16 {
+  padding-top: 14px;
+  font-size: 9pt;
+}
+/* CSS FOR BOLD TEXTS */
+b {
+  font-size: 16pt;
+}
+/* CSS FOR PAID BUTTON */
+.button1 {
+  border-radius: 4px;
+  background-color: grey;
+}
+/* CSS FOR SCHEDULED BUTTON */
+.button2 {
+  border-radius: 4px;
+  background-color: lightgreen;
+}
+/* CSS FOR PRINT ORDER */
+.wrap5 {
+  left: 100%;
+  padding-block-start: 19px;
+}
+/* CSS FOR PRINT ORDER */
+.printer1 {
+  float: left;
+  font-size: 12pt;
+  color: lightgray;
+}
+/* CSS FOR PRINT ORDER */
+.printer {
+  color: lightgray;
+}
+/* CSS FOR PRINT ORDER */
+.printer {
+  float: left;
+}
+/* CSS FOR TABLE DISPLAY */
+.td1 {
+  color: lightgrey;
+}
+/* CSS FOR APLOAD AN AUDIT REPORT */
+.audit {
+  float: left;
+}
+/* CSS FOR BOX  */
+.boxes {
+  float: left;
+  padding-left: 10px;
+  font-size: 8pt;
+}
+/* CSS FOR ORDER DETAILS*/
+.div4 {
+  width: 400px;
+  height: 100px;
+  border: 0.5px solid lightgrey;
+  display: inline-block;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+/* CSS FOR ADDRESS DETAILS */
+.div5 {
+  width: 250px;
+  height: 130px;
+  border: 0.5px solid lightgrey;
+  display: inline-block;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+/* CSS FOR ADDRESS DETAILS */
+.wrap10 {
+  left: 100%;
+  padding-block-start: 60px;
+}
+/* CSS FOFR BOX */
+.box1{
+  float: left;
+  padding-top: 5px;
+}
+/* CSS FOR BOX */
+.boxes1 {
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 8pt;
+}
+/* CSS FOR AUDIT REPORT */
+.div6 {
+  width: 400px;
+  height: 100px;
+  display: inline-block;
+  text-align: left;
+
+}
+/* CSS FOR NOTES FROM CUSTOMERS */
+.div7 {
+  width: 250px;
+  height: 50px;
+  border: 0.5px solid lightgrey;
+  display: inline-block;
+  padding-left: 10px;
+  padding-top: 15px;
+  font-size: 9pt;
+}
+/* CSS FOR NOTES FROM CUSTOMER */
+.wrap12 {
+  left: 100%;
+  padding-block-start: 60px;
+}
+/* CSS FOR UPLOAD AN AUDIT REPORT BOX */
+.box2{
+  float: left;
+}
+/* CSS FOR NO NOTES FROM CUSTOMER BOX */
+.boxes2 {
+  float: left;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+/* CSS FOR NO NOTES FROM CUSTOMER */
+.div8 {
+  padding-top: 12px;
+  font-size: 8pt;
+}
+/* CSS FOR ADDRESS DETAILS */
+.div9 {
+  padding-top: 8px;
+  font-size: 10pt;
+}
+/* CSS FOR ADDRESS DETAILS */
+.div10{
+  padding-top: 2px;
+  font-size: 10pt;
+}
+/* CSS FOR ADDRESS DETAILS */
+.div11{
+  padding-top: 3px;
+  font-size: 10pt;
+}
+/* CSS FOR ADDRESS DETAILS */
+.div12{
+  padding-top: 3px;
+  font-size: 10pt;
+}
+/* CSS FOR ADDRESS DETAILS */
+.div13{
+  padding-top: 3px;
+  font-size: 10pt;
+}
+/* CSS FOR CUSTOMER INFOFRMATION */
+.div3 {
+  font-size: 11pt;
+  font-weight: lighter;
+}
+/* CSS FOR TABLES */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+/* CSS FOFR TD */
+td {
+  vertical-align: top;
+}
+/* CSS FOR TH */
+th{
+	vertical-align:left;
+  text-align: left;
+  padding-top: 10px;
+}
+/* CSS FOR FOR MARK AS INSTALLED BUTTON */
+.div20{
+  float: right;
+}
+/* CSS FOR MARK AS INSTALLED BUTTON */
+.button4{
+  background-color: lightsalmon;
+  color: white;
+  height: 30px;
+  font-size: 8pt;
+  border-radius: 4px;
+}
+/* CSS FOR SKU IN ORDER DETAILS TABLE */
+.sku {
+  font-size: 8pt;
+  font-weight: lighter;
+}
+/* CSS FOR QUANTITY NUMBER IN ORDER DETAILS */
+.last{
+  text-align: center;
+  padding-right: 30px;
+}
+/* CSS FOR UPLOAD AN AUDIT REPORT TABLE */
+.table5 {
+  text-align: left;
+}
+/* CSS FOR ITEMS DESCRIPTION HEADING IN TABLE */
+.tr3 {
+  font-size: 9pt;
+}
+/* ORDER DESCRIPTION */
+.div17 {
+  color: lightgrey;
+}
